@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "rnew",
+      "setup": "sudo apt-get install -y  r-cran-digest r-cran-ggplot2  r-cran-dplyr r-cran-psych r-cran-fitdistrplus  r-cran-vcd r-cran-tidyverse r-cran-mass ",
+      "run": "bash ./test1.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
